@@ -214,5 +214,17 @@
         "valueType": "string"
       }
     ]
+  },
+  {
+  "id": "application",
+  "fields": [
+     {
+       "component": "richtext",
+       "name": "applicationID",
+       "value": "",
+       "label": "Application ID",
+       "valueType": "string"
+     }
+   ]
   }
 ]
