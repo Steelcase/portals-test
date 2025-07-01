@@ -219,7 +219,7 @@
   "id": "application",
   "fields": [
      {
-       "component": "richtext",
+       "component": "text",
        "name": "applicationID",
        "value": "",
        "label": "Application ID",
