@@ -1,6 +1,7 @@
 import { getApplication } from '../../scripts/pim.js';
 
 export default function decorate(block) {
-  var applicationID = block.querySelector('p');
-  block.querySelector('p').innerHTML = "Application: " + applicationID;  
+  const applicationID = block.querySelector('p');
+  const application = getApplication(applicationID.innerHTML);
+  block.querySelector('p').innerHTML = "Application: " + applicationID.innerHTML;
 }
