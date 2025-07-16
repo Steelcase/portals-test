@@ -6,7 +6,7 @@ import algoliasearch from 'algoliasearch';
  * @returns {object} The application
  */
 export default function getApplication(applicationID) {
-  const client = algoliasearch('BCXURW325T', 'c8de156030678c41928d24b889dcefec');
+  const client = algoliasearch('', '');
   const index = client.initIndex('general_application_dev_amer');
 
   index.getObject(applicationID)
